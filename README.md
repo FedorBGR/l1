@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                String surname = "Ваша Фамилия";
+                String surname = "Королев";
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("surname_key", surname);
                 startActivity(intent);
